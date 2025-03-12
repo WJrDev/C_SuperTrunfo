@@ -12,6 +12,16 @@ int Main()
     float c1PIB;
     int c1NumeroDePontosTuristicos;
 
+    //Parametros da Segunda Carta
+
+    char c2Estado;
+    char c2Codigo[3];
+    char c2UF[2];
+    int c2Populacao;
+    float c2Area;
+    float c2PIB;
+    int c2NumeroDePontosTuristicos;
+
     printf("Escolha Os Parametros Da Primeira Carta!\n");
 
     printf("Estado ");
@@ -34,18 +44,10 @@ int Main()
 
     printf("Numero de Pontos Turisticos ");
     scanf("%i\n", &c1NumeroDePontosTuristicos);
+    
+    //////
 
-    //Parametros da Segunda Carta
-
-    char c2Estado;
-    char c2Codigo[3];
-    char c2UF[2];
-    int c2Populacao;
-    float c2Area;
-    float c2PIB;
-    int c2NumeroDePontosTuristicos;
-
-    printf("Escolha Os Parametros Da Primeira Carta!\n");
+    printf("Escolha Os Parametros Da Segunda Carta!\n");
 
     printf("Estado ");
     scanf("%c\n", &c2Estado);
@@ -69,7 +71,7 @@ int Main()
     scanf("%i\n", &c2NumeroDePontosTuristicos);
 
     // Mostrar Todas as Cartas
-    printf("Primaira Carta\n");
+    printf("Primeira Carta\n");
     printf("Estado: %c\n", c1Estado);
     printf("Codigo: %s\n", c1Codigo);
     printf("Populacao: %i\n", c1Populacao);
