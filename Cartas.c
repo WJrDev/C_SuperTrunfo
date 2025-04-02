@@ -19,7 +19,7 @@ int main()
     printf("Escolha Os Parametros Da Primeira Carta!\n");
 
     printf("Estado:\n");
-    scanf("%c", &estadoCartaUm);
+    scanf(" %c", &estadoCartaUm);
 
     printf("Codigo:\n");
     scanf("%s", codigoCartaUm);
@@ -42,7 +42,7 @@ int main()
     printf("\nEscolha Os Parametros Da Segunda Carta!\n");
 
     printf("Estado:\n");
-    scanf("%c", &estadoCartaDois);
+    scanf(" %c", &estadoCartaDois);
 
     printf("Codigo:\n");
     scanf("%s", codigoCartaDois);
@@ -100,7 +100,7 @@ int main()
     printf("Super Poder: %.2f\n", superPoderCartaDois);
 
     //Jogo
-    printf("Escolha um atributo para comparar!\n");
+    printf("\nEscolha um atributo para comparar!\n");
     printf("- População: Escreva 1!\n");
     printf("- Area: Escreva 2!\n");
     printf("- PIB: Escreva 3!\n");
